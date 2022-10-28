@@ -1,0 +1,162 @@
+/* DECORACION INICIO */
+h1  { 
+  color: rgb(0, 0, 0);
+  font-weight: lighter;
+  font-size: 100px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       
+       
+  animation-name: entrada-principal !important; 
+}
+
+h2 { 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+    
+h3 { 
+  font-size: 35px;
+}
+
+p {
+  font-size: 25px; 
+  color: black;
+}
+
+a {text-decoration: none;
+  color: black; }
+
+.parrafo-principal {
+  font-family: cursive;
+}
+
+/* NAVEGADOR DE PAGINAS */
+.navegador {
+display: grid;
+grid-template-columns: auto auto auto auto auto auto auto;
+justify-content: flex-end;
+font-size: 100%;
+}
+
+
+
+/* lista */
+ul {
+  list-style-type: none;
+  text-align: center;
+  font-size: 40px;
+  color: rgb(5, 1, 1);
+}
+    
+ul li  {
+  text-decoration: none;
+  padding: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+  text-shadow: 3px 3px 3px #ababab;
+           
+}
+
+/* seleccionar imagen */
+body {
+  background-image: url("../imagen.html/fondo.jpg");
+  background-attachment: fixed;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  color: black;
+}   
+
+/* animaciones y tranciciones */
+.listahistoria:hover {
+  transform: scale(2);
+  transition-duration: 1s; 
+}
+
+.listacontacto:hover {
+  transform: scale(2);
+  transition-duration: 1s; 
+}
+
+.listamenu:hover {
+  transform: scale(2);
+  transition-duration: 1s; 
+}
+
+.listavinos:hover {
+  transform: scale(2);
+  transition-duration: 1s; 
+}
+
+.listagaleria:hover {
+  transform: scale(2);
+  transition-duration: 1s; 
+  transform: rotate(animate__zoomInDown);
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  padding: 15px;
+  width: 300px;
+}
+
+.imagenes img:hover {
+  box-shadow: 0 0 5px 5px rgb(38, 169, 240);
+  transform: scale(2);
+}
+
+/* IMAGENES EN CAJA */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+
+@media screen and (min-width: 360px) {
+ 
+ }
+
+
+
+.flexindex {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 760px) {
+  .flexindex {
+    flex-direction: column;
+  }
+  p {
+    text-align: center;
+  }
+  .navegador {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .mapa {
+    width: 80%;
+  }
+}
+  
+.list-group {
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  background-color: rgb(150, 91, 53);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif!important;
+}
+
+.card{
+  background-color: rgb(150, 91, 53);
+}
