@@ -6,7 +6,8 @@ body {
   top: 0;
   color: black; 
   font-size: 25px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
 
 li {
   list-style: none; }
