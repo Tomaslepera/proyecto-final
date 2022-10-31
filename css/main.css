@@ -1,0 +1,65 @@
+body {
+  background-image: url(../imagen.html/fondo.jpg);
+  background-attachment: fixed;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  color: black; 
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+li {
+  list-style: none; }
+
+main .cards {
+  display: flex;
+  justify-content: center; }
+  main .cards .card {
+    background-color: #965b35;
+    margin: 2px 10px; }
+    main .cards .card .bt {
+      background-color: rgba(187, 130, 77, 0.658);
+      border: solid 1px black; }
+      main .cards .card .bt:hover {
+        transform: scale(1.2); }
+
+.navbar {
+  background-color: #965b35;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif !important; }
+
+footer {
+  display: flex;
+  justify-content: center; }
+  footer ul li {
+    text-decoration: none;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px #ababab; }
+    footer ul li a {
+      text-decoration: none;
+      color: black; }
+
+      img {
+        border: 1px solid #ddd;
+        border-radius: 15px;
+        padding: 15px;
+        width: 300px;
+      }
+      .imagenes img:hover {
+        box-shadow: 0 0 5px 5px rgb(38, 169, 240);
+        transform: scale(2);
+        
+      }
+      .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      h1{
+        font-size: 100px;
+      }
+      h3{
+        font-size: 50px;
+      }
